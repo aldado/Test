@@ -113,7 +113,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
     switch (uMsg)
-    {
+//    {
         case WM_CLOSE:
             PostQuitMessage(0);
         break;
@@ -177,3 +177,4 @@ void DisableOpenGL (HWND hwnd, HDC hDC, HGLRC hRC)
     ReleaseDC(hwnd, hDC);
 }
 
+//test
